@@ -1,0 +1,85 @@
+/*红包主界面*/
+#main {
+    background: url(../image/main/main.jpg) no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+#main #head {
+    padding-top: 8px;
+}
+#main #head p {
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 华文宋体, serif;
+    display: inline-block;
+}
+#main #head span {
+    width: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(255, 84, 79);
+    font-family: 微软雅黑, serif;
+    margin: 0 18px;
+}
+#main #time {
+    width: 30px; height: 100px;
+    right: 15px;
+    margin-top: 42px;
+    background: url(../image/main/time.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+}
+#main #time span {
+    bottom: 11%;
+    left: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 241, 0);
+    position: absolute;
+}
+#countDown {
+    width: 200px; height: 50px;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+    font-size: 45px;
+    color: white;
+    position: absolute;
+}
+#RedPackage__Main {
+    width: 90%; height: 80%;
+    text-align: center;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: 0 auto;
+    z-index: 5;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.RedPack {
+    width: 120px; height: 80px;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+    /*animation: 5s Down;*/
+}
+@keyframes Down {
+    from { top: 0; }
+    to { top: 450px; }
+}
+.RedPack span#RedP_info {
+    width: 100%;
+    font-size: 18px;
+    color: rgb(255, 241, 0);
+    margin-bottom: 5px;
+    z-index: 1;
+}
+.RedPack img.redP {
+    width: 40px;
+}
+footer {
+    color: rgb(255, 255, 255);
+}
+#RE_num {
+    background: rgb(113, 113, 113);
+}

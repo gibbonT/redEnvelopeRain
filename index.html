@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>红包雨小游戏</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1, maximum-scale=1,minimum-scale=1, user-scalable=no">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+    <script type="text/javascript" src="JS/common.js"></script>
+    <!--<script type="text/javascript" src="JS/wx.js"></script>-->
+    <link rel="stylesheet" href="CSS/init.css" type="text/css" />
+</head>
+
+<body>
+    <!--漂浮div-->
+    <div id="RE_num">
+        <img src="image/first/lb.png" alt="">
+        <p><sapn id="att_persion">XXXX</sapn>获得了<span id="att_money">X元</span>现金红包</p>
+    </div>
+    <header>
+        <img src="image/first/logo.png" alt="">
+        <p>中国石油青海销售公司</p>
+    </header>
+    <footer>@北京云杉智达科技有限公司制作</footer>
+
+    <div id="first">
+        <div id="content">
+            <div id="begin" onclick="begin();">开始游戏</div>
+            <div id="introd">
+                <p id="int_1">——— <span>玩法说明</span> ———</p>
+                <p class="int_2">开始游戏后点击屏幕上的红包，</p>
+                <p class="int_2">30秒内随时有惊喜。奖励不等！</p>
+            </div>
+        </div>
+        <div id="btn_p">
+            <img src="image/first/My.png" alt="" onclick="exam_RP()">
+            <p id="id_1">点击查看</p>
+            <p id="id_2">我的红包</p>
+        </div>
+        <div id="times">
+            <!--<div id="share">点击分享</div>-->
+            <p>当前剩余<br>次数：<span id="today_time"></span></p>
+        </div>
+    </div>
+    <script type="text/javascript" src="JS/init.js"></script>
+</body>
+</html>
